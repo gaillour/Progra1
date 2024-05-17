@@ -30,33 +30,40 @@ type
 procedure crear1(var A1:TA1);
 var
     R:TR1;
+    arch:text;
 begin
+    assign(arch,'PAQUETES.TXT'); reset(arch);
     Rewrite(A1);
-    write('cDest: ');readln(R.cDest);
+    read(arch,R.cDest);
     while (R.cDest<>0) and (R.cDest<=30) do
     begin
-        write('cPaquete: ');readln(R.cPaquete);
-        Write('peso: ');ReadLn(R.peso);
-        Write('moto: ');readln(R.monto);
-        write(A1,R);
-        write('cDest: ');ReadLn(R.cDest);
+        read(arch,R.cPaquete);
+        Read(arch,R.peso);
+        read(arch,R.monto);
+        write(A1,R);readln(arch);
+        Read(arch,R.cDest);
     end;
     Close(A1);
+    close(arch);
 end;
 
 procedure crear2(var A2:TA2);
 var
     R:TR2;
+    arch:text;
+    blanco:char;
 begin
     Rewrite(A2);
-    write('ingrese codigo: ');readln(R.Cdest);
+    assign(arch,'DESTINO.TXT'); reset(arch);
+    read(arch,R.Cdest);
     while (R.cdest<>0) and (R.cdest<=30) do
     begin
-        write('ingrese descripcion ');readln(R.descr);
-        Write(A2,R);
-        write('ingrese codigo: ');readln(R.Cdest);
+        read(arch,blanco,R.descr);
+        Write(A2,R);readln(arch);
+        read(arch,R.Cdest);
     end;
     Close(A2);
+    close(arch);
 end;
 
 
