@@ -44,6 +44,19 @@ begin
     Close(A2);
 end;
 
+{
+a) El peso promedio de los paquetes. 
+b) Total del monto asegurado de la carga a transportar. 
+c) Al finalizar el proceso armar el siguiente listado:
+Destino             Cantidad de Paquetes 
+Xxxxxxxxxxxxxxxx           99 
+. . .                    . . . 
+TOTAL                      99
+}
+
+
+
+
 procedure promedio(var A1:TA1;var prom:real);
 var
     R:TR1;
