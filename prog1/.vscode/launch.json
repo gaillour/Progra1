@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Debugger",
+            "type": "gdb",
+            "request": "launch",
+            "target": "Demo.exe",
+            "cwd": "${workspaceRoot}",
+            "terminal": "cmd"
+        }
+    ]
+}

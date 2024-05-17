@@ -1,0 +1,4 @@
+juan     3 5 4
+federico 5 8 6
+agustin  10 9 8
+javier   2 1 3

@@ -1,0 +1,5 @@
+juan  10 30
+fede  32 45
+jojo  40 40
+facu  50 10
+crack 60 60

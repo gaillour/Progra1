@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="g4e9.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="12" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="12">
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="13" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="10" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="15" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="16" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="13" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="24" Column="46" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="9" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="16" Column="12" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="6" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="13" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="8" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="11" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="g4e9.lpr"/>
+        <Caret Line="13" Column="25"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="archivo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\Downloads\Programacion 1\TP3\TP3E02I1.pas"/>
+        <UnitName Value="divisores"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

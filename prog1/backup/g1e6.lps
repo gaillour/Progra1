@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="g1e6.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="12" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="20">
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="9" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="2" Column="4"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="6" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="7" Column="51"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="9" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="11" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="7" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="8" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="10" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="8" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="6" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="8" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="6" Column="6"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="7" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="6" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="7" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="10" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="8" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="10" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="9" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="g1e6.lpr"/>
+        <Caret Line="3" Column="43"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

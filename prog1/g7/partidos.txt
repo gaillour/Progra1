@@ -1,0 +1,5 @@
+river 7 G G G G E G G
+boca 6 P P P G E P
+racing 8 G G G P P P P E
+independiente 8 P P P G G G G E
+estudiantes 6 P P P P E G

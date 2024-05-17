@@ -1,0 +1,7 @@
+juan     4
+javier   6 
+federico 8
+gabriel  5 
+zambia   9
+fulca    10
+graipo   9

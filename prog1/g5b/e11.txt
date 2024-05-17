@@ -1,0 +1,4 @@
+aasor 9 8
+juan 3 11
+tomas 4 3
+zanaso 2 1
