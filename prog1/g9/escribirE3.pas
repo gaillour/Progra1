@@ -30,7 +30,7 @@ begin
     begin
         write(A1,R);
         readln(arch,R.cod,r.pbase,r.pcomida,r.descr);
-    end;    
+    end;
     close(arch);
 end;
 

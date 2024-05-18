@@ -9,6 +9,7 @@ NJK 5000 140 viaje en barco
 NKD 5000 140 City Tour
 NLK 2500 140 viaje en barco
 ZCW 3000 140 City Tour
-FAD 2300 900 City Tour
+FAD 2300 900 Casino
 KKW 4505 799 Casino
 ASV 1321 100 Casino
+--- 1111 111 ----

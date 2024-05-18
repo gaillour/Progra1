@@ -77,13 +77,13 @@ begin
     porc:=0;cTot:=0;
     read(A2,R2);
     writeln('Excursion  cBoletos  cComida   monto');
-    while not Eof(A2)  do
+    while (R2.cod<>'ZZZ') and (not Eof(A2))  do
     begin
         cBoletos:=0;cComida:=0;monto:=0;
         cod:=R2.cod;
         seek(A1,buscaCod(vec,R2.cod)-1);
         read(A1,R1);
-        while (cod=R2.cod) do
+        while (R2.cod<>'ZZZ') and (cod=R2.cod) do
         begin
             cBoletos:=cBoletos+1;
             monto:=monto+R1.pbase;
@@ -92,7 +92,6 @@ begin
                 cComida:=cComida+1;
                 monto:=monto+R1.pcomida;
             end;
-            Writeln(R2.num);
             read(A2,R2);
         end;
         cTot:=cTot+cBoletos;
