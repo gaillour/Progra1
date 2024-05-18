@@ -55,5 +55,4 @@ begin
 intercalar(v1,v2,4,5,v3,k);
 for i:=1 to k do
     writeln(v3[i]);
-  
 end.

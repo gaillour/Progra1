@@ -1,0 +1,14 @@
+ASD 1000 500 viaje en barco
+SAD 2000 599 City Tour
+NSK 4000 100 Laguna
+FGH 2000 120 Laguna
+NJS 2000 120 viaje en barco
+NOF 4000 220 Laguna
+PAS 3000 120 Laguna
+NJK 5000 140 viaje en barco
+NKD 5000 140 City Tour
+NLK 2500 140 viaje en barco
+ZCW 3000 140 City Tour
+FAD 2300 900 City Tour
+KKW 4505 799 Casino
+ASV 1321 100 Casino
