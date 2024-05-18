@@ -117,8 +117,9 @@ var
 begin
     for i:=1 to Length(Vlista) do
         Vlista[i].cant:=0
-
 end;
+
+
 var
     A1:TA1;
     A2:TA2;
@@ -137,9 +138,7 @@ begin
     armardescripciones(A2,vDesc,n);
     inicializar(Vlista);
     listado(vlista,A1,vDesc,m);
-    writeln('b)');
+    writeln('c)');
     for i:=1 to m do
-    begin
         writeln(Vlista[i].descr,' ',Vlista[i].cant);
-    end;
 end.
