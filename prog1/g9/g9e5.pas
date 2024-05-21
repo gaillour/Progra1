@@ -72,11 +72,9 @@ var
     A2:TA2;
     V:TV;
     n:byte;
-
 begin
     assign(A1,'ALUMNOS.DAT');
     assign(A2,'INSCRIPTOS.DAT');
     listarAlumnos(A1,V,n);
     listado(A1,A2,V);
-
 end.
