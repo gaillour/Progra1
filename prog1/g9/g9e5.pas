@@ -14,9 +14,7 @@ type
     end;
     TA2=file of TR2;
 
-{Obtener un listado con la matrícula de aquellos alumnos inscriptos que no cumplan con los requisitos
-de equivalencia  exigidos,  que  son:  para  FISICA  II,  tener  aprobados  MATEMATICA  y  FISICA  I,  
-y  para QUIMICA II, tener aprobado QUIMICA I. (se aprueba con NOTA >=4)}
+{Obtener un listado con la matrícula de aquellos alumnos inscriptos que no cumplan con los requisitos}
 
 procedure listarAlumnos(var A1:TA1;var V:TV;var n:byte);//guarda las matriculas en un vector V
 var

@@ -26,6 +26,21 @@ begin
     v[pos]:=x;
     n:=n+1;
 end;
+
+procedure insertaOrd(var V:tv;var n:byte; X:byte);
+var
+    j:byte;
+begin
+    j:=n;
+    while (j>0) and (X<V[j]) do
+    begin
+        v[j+1]:=v[j];
+        j:=j-1;
+    end;
+    V[j+1]:=X;
+    n:=n+1;    
+end;
+
 procedure mostrar(var v:tv;n:Byte);
 var 
     i:byte;
@@ -35,11 +50,11 @@ begin
 end;
 
 var
-    n,pos,m,x:byte;
+    n,pos,m,x,l:byte;
 
 begin
-    n:=5;m:=5;x:=10;
-    pos:=3;
+    n:=5;m:=5;x:=10;l:=5;
+    pos:=5;
     mostrar(v,n);
     writeln;
     elimina(v,n,pos);
@@ -51,5 +66,8 @@ begin
     write('luego de insertar ',x,' en la poscicion ',pos,' el vector tiene ',m,' unidades: ');
     writeln;
     mostrar(v2,m);
+    writeln;
 
+    insertaOrd(Vord,l,6);
+    mostrar(vord,l);
 end.

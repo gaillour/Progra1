@@ -1,0 +1,11 @@
+A001 2 El Quijote
+A002 1 Cien Años de Soledad
+A003 3 Don Quijote de la Mancha
+A006 2 Orgullo y Prejuicio
+A010 1 Guerra y Paz
+B001 5 Harry Potter y la Piedra Filosofal
+B002 4 El Señor de los Anillos
+B003 1 Crimen y Castigo
+B004 7 El Hobbit
+B005 3 El Principito
+ZZZZ 2 ZZZZZ
