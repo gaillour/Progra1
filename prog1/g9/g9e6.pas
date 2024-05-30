@@ -11,7 +11,6 @@ type
     end;
     TA1=file of TR1;
 
-    TV=array[1..50] of st4;
 
     TR2=record
         legajo,factura:st4;
@@ -19,56 +18,58 @@ type
     end;
     TA2=file of TR2;
 
-procedure listarLegajo(var A1:TA1;var V:TV;var n:byte);
-var
-    R:TR1;
-begin
-    reset(A1);
-    n:=0;
-    read(A1,R);
-    while R.legajo<>'ZZZZ' do
-    begin
-        n:=n+1;
-        V[n]:=R.legajo;
-        read(A1,R);
-    end;
-    close(A1);     
-end;
 
-function busca(V:TV;legajo:st4):byte;
-var
-    i:byte;
-begin
-    i:=1;
-    while V[i]<>legajo do i:=i+1;
-    busca:=i;
-end;
+
 
 {comisión  del  0.5%  sobre  las  ventas  efectuadas}
-procedure actualizar(var A1:TA1;var A2:TA2);
+procedure actualizar(var A1:TA1;var A2:TA2;nombre:string);
 var
     R1:TR1;
     R2:TR2;
+    temp:TA1;
 begin
     {1483 Juan Pérez       tot=5000 F001 1200=max
      1483                           F016 900=imp}
-    reset(A2);
-    read(A2,R2);
-    while R2.legajo<>'ZZZZ' do
+    reset(A2);reset(A1);
+    assign(temp,'TEMP.DAT');
+    Rewrite(temp);
+    read(A1,R1);read(A2,R2);
+    while (not eof(A1)) or (not eof(A2))do
     begin
-        seek(A1,busca(V,R2.legajo));
-          
-    end;   
-
-    
+        if R1.legajo<R2.legajo then
+        begin
+            writeln(R1.legajo,' $',(R1.total)*0.005:4:2);
+            write(temp,R1);read(A1,R1);
+        end
+        else
+        begin
+            if R1.legajo>R2.legajo then
+            begin
+                read(A2,R2);
+            end
+            else
+            begin
+                if R2.imp>R1.max then
+                begin
+                    R1.factura:=R2.factura;
+                    R1.max:=R2.imp
+                end;
+                R1.total:=R1.total+R2.imp;
+                read(A2,R2);
+            end;
+        end;
+    end;
+    write(temp,R1);//centinela
+    close(A1);close(A2);close(temp);   
+    Erase(A1);
+    Rename(temp,Nombre);
 end;
 
 var
     A1:TA1;
     A2:TA2;
-    V:TV;
-begin
-    listarLegajo(A1,TV);
-
-
+begin   
+    assign(A1,'LEGAJOS.DAT');reset(A1);
+    assign(A2,'VENTAS.DAT');reset(A2);
+    actualizar(A1,A2,'LEGAJOS.DAT');
 end.

@@ -1,16 +1,16 @@
-1483 Juan Perez           5000 F001 1200
-3927 María Garcia         4500 F002 1100
-7291 Carlos Sánchez       5200 F003 1300
-5318 Laura Gomez          4800 F004 1150
-8642 Jose Lopez           5100 F005 1250
-2795 Ana Torres           5300 F006 1350
-4639 David Fernandez      4600 F007 1120
-7154 Marta Ruiz           4700 F008 1170
-8347 Pedro Ramirez        5400 F009 1400
-3961 Julia Diaz           4900 F010 1200
 1286 Alberto Castillo     5000 F011 1210
-9043 Sonia Molina         4800 F012 1180
+1483 Juan Perez           5000 F001 1200
+2795 Ana Torres           5300 F006 1350
 3745 Luis Herrera         5200 F013 1320
+3927 María Garcia         4500 F002 1100
+3961 Julia Diaz           4900 F010 1200
+4639 David Fernandez      4600 F007 1120
+5318 Laura Gomez          4800 F004 1150
 5962 Paula Medina         5100 F014 1280
+7154 Marta Ruiz           4700 F008 1170
 7129 Roberto Vega         5300 F015 1370
+7291 Carlos Sánchez       5200 F003 1300
+8347 Pedro Ramirez        5400 F009 1400
+8642 Jose Lopez           5100 F005 1250
+9043 Sonia Molina         4800 F012 1180
 ZZZZ XXXXXXXXXXXXXXXXXX   0000 0000 0000
