@@ -20,7 +20,7 @@ begin
     reset(A1);
     read(A1,R);
     pNegros:=0;ctot:=0;
-    while (R.cod<>'ZZZZ' )and not eof(A1) do
+    while (R.cod<>'ZZZZ')and not eof(A1) do
     begin
         codAct:=R.cod;
         writeln('Cod: ',R.cod);
