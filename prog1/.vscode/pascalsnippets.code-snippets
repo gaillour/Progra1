@@ -48,10 +48,11 @@
 			  "escribir archivo de tipo": {
 				"prefix": "escribir",
 				"body": [
-				  "procedure escribir(var A$1:TA$1);",
+				  "procedure escribir$1(var A$1:TA$1);",
 				  "var",
 				  "    R$1:TR$1;",
 				  "    arch:text;",
+				  "    blanco:char;",
 				  "begin",
 				  "    Rewrite(A$1);",
 				  "    assign(arch,'$2.TXT'); reset(arch);",
@@ -59,10 +60,9 @@
 				  "    while not eof(Arch) do",
 				  "    begin",
 				  "        write(A$1,R$1);",
-				  "        with R$1 do",
-				  "            readln(arch, $3);",
+				  "        readln(arch, $3);",
 				  "    end;",
-				  "close(A$1);",
+				  "    close(A$1);",
 				  "    close(arch);",
 				  "end;"
 				],

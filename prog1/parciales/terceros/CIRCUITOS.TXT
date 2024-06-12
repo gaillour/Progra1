@@ -1,0 +1,21 @@
+1 Monaco               6861
+2 Montreal             13203
+3 Melbourne            7761
+4 Silverstone          10108
+5 Suzuka               18514
+6 Barcelona            10871
+7 Austin               7816
+8 Interlagos           9947
+9 Spa                  14100
+10 Monza               16920
+11 Singapore           15648
+12 Bahrain             9969
+13 Shanghai            11398
+14 Budapest            9474
+15 Istanbul            13997
+16 Mexico City         13506
+17 Abu Dhabi           8246
+18 Jeddah              18625
+19 Sochi               16833
+20 Las Vegas           7905
+99 ZZZZZZZ             999999
